@@ -1,0 +1,33 @@
+.agregar{
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
+    height: 60px;
+    margin-bottom: 20px;
+
+}
+
+
+.Botones{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cont {
+    width: 25em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+}
+
+.spawn {
+    border-radius: 1em;
+    height: 40px;
+    align-self: center;
+}
+
+body{
+    margin: 0;
+}

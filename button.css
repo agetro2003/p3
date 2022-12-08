@@ -1,0 +1,28 @@
+.def {
+    background-color: gray;
+    color: beige;
+    height: 2em;
+    width: 12em;
+    display: flex;
+    align-items: center;
+    margin: 1em;
+    justify-content: space-around;
+    
+}
+
+.def:hover {
+    background-color: red;
+}
+
+.transparente {
+background-color: transparent;
+color: beige;
+height: 2em;
+width: 12em;
+display: flex;
+align-items: center;
+margin: 1em;
+justify-content: space-around;
+}
+
+
