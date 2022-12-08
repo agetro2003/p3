@@ -8,7 +8,7 @@ export default class Button {
         this.element.appendChild(this.alt)
         this.element.className = "def"
         this.clase = nombre
-        if (css !== undefined) {
+        if (css !== undefined && document.getElementById("lista").innerHTML.includes(nombre) == false) {
             let clase = `.${nombre} {`
             for (const prop in css) {
                clase += prop + ":" + css[prop]
